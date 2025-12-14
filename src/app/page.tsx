@@ -8,6 +8,7 @@ import Features from "@/components/Features";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Preloader from "@/components/Preloader";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,6 +22,7 @@ export default function Home() {
       <Features />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }
